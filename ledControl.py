@@ -124,10 +124,8 @@ def transition(total = 10, position = 0):
 """breathe
 Breathe animation
 Parameter1- number of leds to be used
-Parameter2- tuple of 3 ints to represent RGB values of color of led 
-Parameter3- int value representing speed of breathe animation
 """
-def breathe(leds = 60, color = (0,0,0), speed = 0):
+def breathe(leds = 60):
 	for i in range(0, 150):
 		for j in range(0, leds):
 			led.setPixelColor(j, Color(0,0,i))
@@ -151,10 +149,8 @@ def breathe(leds = 60, color = (0,0,0), speed = 0):
 """breathe 2
 Breathe animation
 Parameter1- number of leds to be used
-Parameter2- tuple of 3 ints to represent RGB values of color of led 
-Parameter3- int value representing speed of breathe animation
 """
-def breathe2(leds = 60, color = (0,0,0), speed = 0):
+def breathe2(leds = 60):
 	for i in range(0, 150):
 		for j in range(0, int(leds/3)):
 			led.setPixelColor(j, Color(0,0,i))
@@ -182,10 +178,9 @@ def breathe2(leds = 60, color = (0,0,0), speed = 0):
 """breathe 3
 Breathe animation
 Parameter1- number of leds to be used
-Parameter2- tuple of 3 ints to represent RGB values of color of led 
-Parameter3- int value representing speed of breathe animation
+Parameter2- passed on information tuple of 2
 """
-def breathe3(leds = 60, info = None, color = (0,0,0), speed = 0):
+def breathe3(leds = 60, info = None):
 	global returned
 	if(info == None):
 		for i in range(0, 150):
