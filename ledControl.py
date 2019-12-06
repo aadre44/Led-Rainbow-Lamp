@@ -28,7 +28,7 @@ enc - Error. No. Connection.: used to count the number of tries connecting to ht
 returned = None
 btnPress = False
 mode = -1
-url = "http://192.168.0.27:5000"
+url = "Enter YOUR URL HERE"
 httpChange = False
 enc = 0
 firstConnect = True
