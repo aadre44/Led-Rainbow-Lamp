@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-String url = "http://73.215.71.79:5000"; //"http://192.168.0.27:5000";
+String url = "ENTER YOUR URL HERE";
 class Post {
   final String mode;
 
